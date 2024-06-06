@@ -1,0 +1,273 @@
+<div id="bluecard">
+
+
+
+
+
+<center>
+<table bgcolor="Dodgerblue" height="500px" width="600px">
+<tr border="black">
+<td>
+<tr>
+<td>
+
+<center><img src="../main/prototype/logo.jpg" height="50"></center>
+
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+<h2><center> Community of Learners Academy of San Jose </center></h2>
+<h4><center> S.Y_____-20__ </center></h4>
+<h3><center> Registration Card </center></h3>
+<tr>
+<td>
+<tr>
+<td>
+<tr>
+<td>
+<h3><left>LRN________________________ </left></h3>
+<h4><Left> Name___________________________________Level____ </center></h4>
+ 
+<h4><Left> Address___________________________________Tel________ </Left></h4>
+<h4><Left> Parent's Name__________________________________Gender____ </Left></h4>
+<center> <table bgcolor="Black" width="600"  height="10">
+<tr bgcolor="Dodgerblue">
+<h1><th width="100">FEE</th></h1>
+<th width="60">S1</th>
+<th width="60">S2</th>
+<th width="60">S3</th>
+<th width="100">AMOUNT</th>
+<th width="100">PAYMENT</th>
+<th width="100">BALANCE</th>
+<th width="80">OR#</th>
+<th width="90">DATE</th>
+</tr>
+</td>
+<tr bgcolor="Dodgerblue" align="center" width="600" height="20" >
+<td>Tuition</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr bgcolor="Dodgerblue" align="center" width="600" height="20" >
+<td>Lab Fee</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr bgcolor="Dodgerblue" align="center" width="600" height="20" >
+<td>Misc</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr bgcolor="Dodgerblue" align="center" width="600" height="20" >
+<td>TOTAL</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr bgcolor="Dodgerblue" align="center" width="600" height="20" >
+<td>Books</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr bgcolor="Dodgerblue" align="center" width="600" height="20" >
+<td>Uniform</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr bgcolor="Dodgerblue" align="center" width="600" height="20" >
+<td>Ftrip</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr bgcolor="Dodgerblue" align="center" width="600" height="20" >
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr bgcolor="Dodgerblue" align="center" width="600" height="20" >
+<td>Monthly</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+
+<table bgcolor="Black" height="20px" width="600px">
+RECORD OF PAYMENT
+<tr bgcolor="DodgerBlue" align="center" width="10" height="20" >	
+<td width="50">Date</td>	
+<td width="50">OR#</td>
+<td width="70">Month</td>
+<td width="50">Payment</td>
+<td width="50">Balance</td>
+<td width="40">Signature</td>
+</tr>
+<tr bgcolor="DodgerBlue" align="center" width="10" height="20" >	
+<td></td>	
+<td></td>
+<td>June</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr bgcolor="DodgerBlue" align="center" width="10" height="20" >	
+<td></td>	
+<td></td>
+<td>July</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr bgcolor="DodgerBlue" align="center" width="10" height="20" >	
+<td></td>	
+<td></td>
+<td>August</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr bgcolor="DodgerBlue" align="center" width="10" height="20" >	
+<td></td>	
+<td></td>
+<td>September</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr bgcolor="DodgerBlue" align="center" width="10" height="20" >	
+<td></td>	
+<td></td>
+<td>October</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr bgcolor="DodgerBlue" align="center" width="10" height="20" >	
+<td></td>	
+<td></td>
+<td>November</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr bgcolor="DodgerBlue" align="center" width="10" height="20" >	
+<td></td>	
+<td></td>
+<td>December</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr bgcolor="DodgerBlue" align="center" width="10" height="20" >	
+<td></td>	
+<td></td>
+<td>January</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr bgcolor="DodgerBlue" align="center" width="10" height="20" >	
+<td></td>	
+<td></td>
+<td>February</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr bgcolor="DodgerBlue" align="center" width="10" height="20" >	
+<td></td>	
+<td></td>
+<td>March</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+
+
+
+</table>
+Assessed by:___________________________Date:_____________
+
+
+</td>
+</tr>
+</td>
+</tr>
+
+
+</table>
+</center>

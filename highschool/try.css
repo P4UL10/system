@@ -1,0 +1,30 @@
+.button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #0fc71f;
+    color: black;
+    border: solid ;
+    border-radius: 10%;
+    width: 100px;
+    height: 60px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    cursor: pointer;
+  }
+
+  .content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 350px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    top: 70px;
+    left: 20px;
+  }
+  

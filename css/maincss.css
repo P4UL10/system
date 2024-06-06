@@ -1,0 +1,102 @@
+
+#interface{
+    
+    background-size: cover;
+    float: left;
+}
+#interface .navigation {
+    display: flex;
+    align-items:center;
+    background: linear-gradient(to right,rgb(231,253,194),rgb(129,173,244));
+    padding: 15px 30px;
+    border-bottom: 3px solid #080808;
+    position: fixed;
+    width: 100%;
+    
+}
+#interface .navigation .search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:10px 14px;
+    border:1px solid #bcc1cf;
+    border-radius: 5px; 
+}
+#interface .navigation  .search i {
+    margin-right: 14px;
+    
+}
+#interface .navigation  .search i:hover a{
+    color: black;
+}
+#interface .navigation .search input{
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+#interface .navigation .profile{
+    display: flex;
+    justify-content: flex-start;
+    float: left;
+
+}
+#interface .navigation .profile i{
+    margin-right: 20px;
+    font-size: 19px;
+    font-weight: 400;
+
+}
+
+#interface .navigation .profile img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.n1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+} 
+#interface .navigation .menu-bar ul{
+    list-style-type: none;
+    display: flex;
+}
+#interface .navigation .menu-bar ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+#interface .navigation .menu-bar ul li a{
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+#interface .navigation .menu-bar ul li a{
+    color: var(--color-primary);
+}
+#interface .navigation .dropdown {
+    display: none;
+}
+#interface .navigation .menu-bar ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--color-black);
+
+
+}
+#interface .navigation .dropdown ul{
+    display: block;
+    margin: 10px;
+}
+#interface .navigation .dropdown ul li{
+    width: 150px;
+    padding: 10px;
+
+}
+
+
+

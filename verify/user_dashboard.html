@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Page</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <section>
+        <div class="menu-bar">
+            <img src="clasj.png" alt="">
+            <h1>Student Page</h1>
+        </div>
+        <div class="dashboard" id="dashboard">
+            <div class="main-content">
+                <div class="main-top">
+                    <div class="bars" id="menu">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+            <h2 class="heading">Profile</h2>
+                <div class="container">
+
+
+<center> <table bgcolor="white" width="800"  height="10">
+<tr bgcolor="white">
+<th width="1"><img src ="clasj.png" height="150px"></th>
+<th width="800"><input type="text" placeholder="Last Name" style="width: 200px; height: 40px;">
+ <input type="text" placeholder="First Name" style="width: 200px; height: 40px;">
+ <input type="text" placeholder=Second Name" style="width: 200px; height: 40px;">
+<br><br>
+<input type="text" placeholder="Student Number" style="width: 200px; height: 40px;">
+ <input type="text" placeholder="Gender" style="width: 200px; height: 40px;">
+ <input type="text" placeholder="Age" style="width: 200px; height: 40px;">
+</tr>
+
+<center> <table bgcolor="white" width="800"  height="10">
+<tr bgcolor="white">
+<th width="150">Other Information:</th>
+<th> </th>
+
+
+<center> <table bgcolor="white" width="800"  height="10">
+<tr bgcolor="white">
+ <input type="text" align="center" placeholder="Email" style="width: 500px; height: 40px;"> 
+<br><br>
+ <input type="text" align="center" placeholder="Contact Number" style="width: 500px; height: 40px;"> 
+<br><br>
+ <input type="text" align="center" placeholder="Birthday" style="width: 500px; height: 40px;"> 
+
+
+</tr>
+</table>
+
+
+                </div>
+            </div>
+        </div>   
+    </section>
+
+    <div class="navbar" id="navigation">
+        <img src="clasj.png" alt="">
+       
+    </div>
+
+    <script>
+        const hamburger = document.getElementById('menu');
+        const navigation = document.getElementById('navigation');
+        hamburger.addEventListener('click', function () {
+            navigation.classList.toggle('active')
+            console.log('clicked');
+        })
+        const printbutton = document.getElementById('print');
+        printbutton.addEventListener('click', function () {
+            print();
+        })
+    </script>
+</body>
+</html>

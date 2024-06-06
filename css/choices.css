@@ -1,0 +1,232 @@
+.insidess{
+  border-radius: 5px;
+  padding: 20px;
+  width: 800px;
+  margin-left: 210px;
+  margin-top: 20px;
+  height: 400px;
+  border: none;
+  display: flex;
+  background-color: white;
+}
+
+.reminder{
+  border-radius: 5px;
+  padding: 0px;
+  box-shadow:0 5px 10px rgb(7, 7, 7);
+  width: 70%;
+  margin-left: 210px;
+  margin-top: 20px;
+  height: 70%;
+  font-size: 20px;
+  border: none;
+  display: flex;
+  background-color: white;
+}
+.title{
+  border: solid black 2px;
+  width: 700px;
+  background-color: white;
+}
+.button{
+  border: solid black 2px;
+  border-radius: 20px;
+  width: 200px;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  margin-left: 120px;
+  padding: 5px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.continue{
+  border: solid black 2px;
+  border-radius: 100px;
+  width: 1800px;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  margin-left: 360px;
+  padding: 20px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+.button:hover{
+  border: solid black 2px;
+  width: 200px;
+  background-color: white;
+  color: green;
+}
+  .column{
+    flex: 50%;
+    border-right: solid black 1px;
+    margin-left: 5px;
+  }
+
+  .circle{
+    list-style-position: inside;
+    list-style-image: url(../prototype/checks.png);
+
+  }
+  .hat{
+    list-style-position:inside;
+    list-style-image: url(../prototype/hat.png);
+    flex: 50%;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+  
+  }
+  body {
+    font-family: sans-serif;
+    width: 100%;
+
+    background-attachment: sticky;
+    background-repeat: no-repeat;
+    background-image: url(../prototype/round.jpg); 
+   
+   
+  }
+  .logo h1{
+    color: var(--color-blue);
+    font-size: 30px;
+    text-align: left;
+  }
+  .menu-bar img{
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  }
+  .logo span {
+    color: var(--color-primary);
+  }
+  
+  .menu-bar {
+    background:linear-gradient(to right,rgb(231,253,194),rgb(129,173,244));
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 5px ;
+  
+    position: relative;
+  }
+  
+  .menu-bar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu-bar ul li {
+    padding: 10px 30px;
+  
+    position: relative;
+  }
+  
+  .menu-bar ul li a {
+    font-size: 20px;
+    color: var(--color-white);
+    text-decoration: none;
+    border-bottom:solid black 2px ;
+    transition: all 0.3s;
+  }
+  
+  .menu-bar ul li a:hover {
+    color: var(--color-primary);
+  }
+  
+  
+  .dropdown-menu {
+    display: none;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: -100px;
+    top: 100%;
+    background-color: white;
+    border: solid black 2px;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu ul {
+    display: block;
+    margin: 10px;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu ul li {
+    width: 150px;
+    padding: 10px;
+  }
+  
+  .dropdown-menu-1 {
+    display: none;
+  }
+  
+  .dropdown-menu ul li:hover .dropdown-menu-1 {
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    background-color: white;
+    border: solid black 2px;
+  }
+  .dropdown-menu1   {
+    display: none;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu1 {
+    display: block;
+    position: absolute;
+    left: -100px;
+    top: 100%;
+    background-color: white;
+    border: solid black 2px;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu1 ul {
+    display: block;
+    margin: 10px;
+    left: -100px;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu1 ul li {
+    width: 150px;
+    padding: 10px;
+  }
+  .dropdown-menu {
+    display: none;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu1 {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: white;
+    border: solid black 2px;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu1 ul {
+    display: block;
+    margin: 10px;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu1 ul li {
+    width: 200px;
+    padding: 10px;
+  }
+
+  

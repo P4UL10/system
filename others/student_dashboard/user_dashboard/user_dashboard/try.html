@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Floating Button</title>
+  <link rel="stylesheet" href="try.css">
+</head>
+<body>
+  <div class="button" id="floatingButton">
+    <h3>Guidelines</h3>
+    <div class="content" id="content">
+      This is the content of the floating button.
+    </div>
+  </div>
+  <script>
+    const floating = document.getElementById('floatingButton');
+    const contents = document.getElementById('contents');
+
+    floating.addEventListener('click', () => {
+    if (contents.style.display === 'none') {
+      contens.style.display = 'block';
+     } else {
+    contents.style.display = 'none';
+     }
+});
+
+  </script>
+</body>
+</html>

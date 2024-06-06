@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Page</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <section>
+        <div class="menu-bar">
+            <img src="../prototype/logo.jpg" alt="">
+            <h1>Student Page</h1>
+        </div>
+        <div class="dashboard" id="dashboard">
+            <div class="main-content">
+                <div class="main-top">
+                    <div class="bars" id="menu">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <h2 class="heading">Dashboard</h2>
+                <div class="container">
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="navbar" id="navigation">
+        <img src="../prototype/profile.png" alt="">
+       
+    </div>
+
+    <script>
+        const hamburger = document.getElementById('menu');
+        const navigation = document.getElementById('navigation');
+        hamburger.addEventListener('click', function () {
+            navigation.classList.toggle('active')
+            console.log('clicked');
+        })
+        const printbutton = document.getElementById('print');
+        printbutton.addEventListener('click', function () {
+            print();
+        })
+    </script>
+</body>
+</html>
